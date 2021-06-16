@@ -1,0 +1,128 @@
+body{
+  font-family:fantasy ;
+  text-align: center;
+}
+
+p{
+  font-family: serif;
+  color: #8f8f8f;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: serif;
+}
+
+/*headings*/
+.big-heading{
+    font-family: serif;
+    font-size: 3rem;
+    color: #005a8d;
+    line-height:1.5;
+}
+.heading{
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*container*/
+.container-fluid{
+  padding: 7% 15%;
+}
+/*sections*/
+.colored-section{
+  background-color: #f4c7ab;
+  color:#231e23;
+}
+.white-section{
+  background-color: #fff;
+  color:#231e23;
+}
+/*navigation-bar*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  font-family: serif;
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/*titile-image*/
+.title-image{
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  right: 10%;
+}
+/*title-section*/
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/*features-section*/
+#features{
+  position: relative;
+}
+
+.feature-box{
+  padding: 1%;
+}
+
+.feature-button{
+  margin: 5% 3% 5% 0 ;
+  font-family: sans-serif;
+}
+
+.icon{
+  color: #b2b8a3;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #b2b8a3;
+}
+/*about us-section*/
+.aboutus-text{
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+#aboutus{
+  background-color: #f4c7ab;
+}
+.aboutus-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+.social-icon{
+  margin:20px 10px;
+  color:#0a1931;
+}
+/*phone mode*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+.title-image{
+    width: 70%;
+    height: 70%;
+    position: static;
+  }
+}

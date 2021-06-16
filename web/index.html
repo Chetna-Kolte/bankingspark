@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bank</title>
+ <link rel="icon" href="sparkbank/Bank/favicon/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+
+  <!--css stylesheet-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="Bank/css/index.css">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/8f292731f0.js" crossorigin="anonymous"></script>
+
+
+  <!--bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar  navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="">SPARKS BANK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading"><b>Welcome to our website</b></h1>
+          <h3 class="heading">Best choice for all seamless and atomic transactions.Here you can have safe transfer of money and can avail all basic facilities</h>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="Bank/images/bankimg.jpg" alt="bank-mockup">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section"id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+          <img class="image" src="Bank/images/user.jpg" alt="user-mockup">
+        <a href="http://localhost:8084/sparksbank/Bank/user.jsp" <button class="feature-button btn btn-lg btn-dark" type="button" id="userbtn"><i class="fas fa-user-friends"></i> View Users</button></a>
+          <p>You can list of all users connected with us.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image" src="Bank/images/transferm.png" alt="tans-mockup">
+          <a href="http://localhost:8084/sparksbank/Bank/transfer.html" <button class="feature-button btn btn-lg btn-dark" type="button" id="transbtn"><i class="fas fa-exchange-alt"></i> Transfer Money</button></a>
+          <p>You can transfer money to your friends,family and colleagues.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image" src="Bank/images/trans.jpg" alt="his-mockup">
+          <a href="http://localhost:8084/sparksbank/Bank/history.jsp" <button class="feature-button btn btn-lg btn-dark" type="button" id="hisbtn"><i class="fas fa-history"></i> Transaction History</button></a>
+          <p>you can see history of all transactions.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- testimonials -->
+
+  <section class="colored-section"id="aboutus">
+    <div id="aboutus-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="aboutus-text">Sparks Bank,is an Indian Multinational, Public Sector Banking and Financial body. It focuses on innovation, and customer centricity, which stems from the core values of the Bank - Service, Transparency, Ethics, Politeness and Sustainability.</h2>
+           <em>Sparks Bank</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="aboutus-text">"The financial industry is a service industry. It should serve others before it serves itself.”</h2>
+          <img class="aboutus-image" src="images/ceo.jpg" alt="ceo-profile">
+          <em>CEO</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#aboutus-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#aboutus-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2021 ChetnaKolte</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
+

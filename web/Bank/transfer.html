@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Transfer Money</title>
+    <link rel="icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/transfer.css">
+    <script src="https://kit.fontawesome.com/8f292731f0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <section class="colored-section" id="title">
+      <div >
+        <!-- Nav Bar -->
+        <nav class="navbar  navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="">SPARKS BANK</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8084/sparksbank/WEB-INF/index.html">Home Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8084/sparksbank/Bank/user.jsp">Customers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8084/sparksbank/Bank/history.jsp">Transaction History</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      </section>
+      <h3>Transfer Money</h3>
+    <section id="form">
+      <div class="card text-white bg-danger mb-3" style="width: 60%;">
+
+
+        <div class="card-header">
+          <img class="card-img-top" src="images/money.jpg" alt="trans-mockup"></img>
+        </div>
+        <div class="card-body">
+          <form class="input-form" action="/sparksbank/save" method="post" id="formid">
+
+            <label>Sender ID</label>
+            <input type="text" name="senderid" value=""/>
+            <br />
+            <label>Sender Name</label>
+            <input type="text" name="sendername" value=""/>
+            <br />
+            <label>Reciever ID</label>
+            <input type="text" name="recieverid" value=""/>
+             <br />
+            <label>Reciever Name</label>
+            <input type="text" name="recievername" value=""/>
+            <br />
+            <label>Amount</label>
+            <input type="number" name="amount" value="" />
+            <br />
+            <button class="btn btn-lg  btn-outline-light download-button" type="submit">Transfer</button>
+          <a href="http://localhost:8084/sparksbank/Bank/transfer.html" <button class="btn btn-lg  btn-outline-light download-button" type="button" id="cnclbtn">Cancel</button></a>
+          </form>
+
+        </div>
+    </div>
+
+  </section>
+    <footer class="colored-section" id="footer">
+      <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2021 ChetnaKolte</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
